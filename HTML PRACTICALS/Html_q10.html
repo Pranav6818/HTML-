@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM 2</title>
+    <style>
+        form{
+            width: 900px;
+            padding: 50px;
+            margin: auto;
+            background-color: antiquewhite;
+        
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;"><i>Please fill this form to help us serve you better</i></h3>
+    <form method="POST">
+        <p>
+            <b>Name:</b><input type="text" size="25" maxlength="30" value="Full Name">
+            <p><b>Age:</b><input type="number" min="15" max="65">
+             <p><b>Date Of Birth:</b><input type="date">
+              <p><b>Gender:<br>
+                Male<input type="radio" aria-checked="mixed" name="gender">
+                Female<input type="radio" aria-checked="mixed" name="gender"></b>
+            
+        </p>
+        <p><b>Favourite Color<input type="color"></b></p>
+        <p><b>Products purchased from our site:
+            Shirts<input type="checkbox" aria-checked="mixed">
+            T-Shirts<input type="checkbox" aria-checked="mixed">
+            Trousers<input type="checkbox" aria-checked="mixed">
+            Skirts<input type="checkbox" aria-checked="mixed">
+            Suits<input type="checkbox" aria-checked="mixed">
+            Oters<textarea rows="2" cols="30">Please specify the items purchased</textarea></b>
+        </p>
+        <p><b>Your Shopping Area Preferences:</b>
+            <select size="2" multiple="multiple">
+                <option>South Ex</option>
+                <option>Lajpatnagar</option>
+                <option>Kamla Nagar</option>
+                <option>Tilak Nagar</option>
+                <option>Sarojni Nagar</option>
+                <option>Gurgaon</option>
+                <option>Karol Bagh</option>
+            </select></p>
+            <p><b>Would you like to promote this site by sharing it</b>
+            Yes<input type="radio" aria-checked="mixed" name="login">
+            No<input type="radio" aria-checked="mixed" name="login"><br>
+            If Yes, Please give your login id(alphanumeric with a maximum of 10 characters)
+            </p>
+            <p><b>LOGIN:</b><input type="text" maxlength="10"></p>
+            <p><b>PASSWORD:</b><input type="password"></p>
+            <p style="text-align: right;"><input type="submit"><input type="reset"></p>
+ </form>
+    
+</body>
+</html>

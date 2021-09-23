@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM 1</title>
+    <style>
+        body{
+            background-color: rgb(84, 68, 128)
+        }
+        form{
+            width:500px ;
+            padding:20px;
+            margin: auto;
+            background-color:seashell;
+            font-size: 20px;
+        }
+        input[type=text]{
+            width: 100%;
+            padding:5px;
+            font-size: 17px;
+        }   
+        input[type=submit]{
+            padding:5px;
+            font-size:18px ;
+        }
+        textarea{
+            background-color: #f2f2f2;
+            width: 500px;
+            font-size: 20px;
+            margin: auto;
+        } 
+    </style>
+</head>
+<body>
+    <form>
+        First Name:<br>
+        <input type="text" name="fname"><br>
+        Last Name:<br>
+        <input type="text" name="lname"><br>
+        Your Email:<br>
+        <input type="text" name="email"><br><br>
+        <p><b>Please select your Location:</b>
+            <select size="1" multiple="multiple">
+                <option>Andra Pradesh
+                    <option>Delhi</option>
+                        <option>Mumbai</option>
+                        <option>Kolkata</option>
+                        <option>Kerala</option>
+                        <option>Goa</option>
+                        <option>Tamil Nadu</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Madhya Pradesh</option>
+                </option>
+            </select>
+        </p>
+        <textarea name="Message" rows="5" cols="20"></textarea>
+        <br>
+        <input type="submit" value="Send Message">
+    </form>
+    
+</body>
+</html>
